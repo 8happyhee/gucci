@@ -1,0 +1,588 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Glegoo);
+
+/*배경색: #25211e;
+포인트색: #c1b497;*/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+body {
+  background: #25211e;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a:link, a:hover, a:active{
+  text-decoration: none;
+}
+
+
+a:visited {
+  color:#c1b497;
+  text-decoration: none; 
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #c1b497;
+}
+
+
+/*각 센션 첫머리*/
+.section-heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/*각 센션 첫머리의 설명*/
+.section-heading p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #727272;
+  line-height: 20px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.1;
+  font-weight: 300;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.fancybox-title {
+  padding: 15px 8px;
+}
+
+.fancybox-title h3 {
+  font-size: 15px;
+  margin: 0;
+}
+
+
+/*=== MEDIA QUERY ===*/
+#top-bar {
+  background: #25211e;
+  color: black;
+  transition: all 0.2s ease-out 0s;
+}
+
+#top-bar .navbar-nav li a:hover {
+  background: transparent;
+}
+
+#top-bar .main-menu li {
+  position: relative;
+}
+
+#top-bar .main-menu li a {
+  color: white;
+  font-size: 14px;
+  border-bottom: 2px solid transparent;
+  transition: .3s all;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+#top-bar .main-menu li a.active{
+  color: #c1b497;
+}
+
+.navbar-toggle {
+  background: #222222;
+}
+
+.navbar-toggle .icon-bar {
+  background: #fff;
+}
+
+.nav .open a {
+  background-color: transparent;
+}
+
+.nav .open a:focus {
+  background-color: transparent;
+}
+
+#top-bar .dropdown-menu ul li a {
+  display: block;
+  font-size: 13px;
+  line-height: normal;
+  text-decoration: none;
+  padding: 8px 0;
+  color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand{
+  width: 300px;
+}
+
+.navbar-brand img{
+  margin-top: -10px;
+}
+
+
+/*==================================================
+  main
+  ==================================================*/
+#main .container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #25211e;
+  overflow-x: hidden;
+}
+
+
+#main .bg-video{
+  width: 1920px;
+  position: relative;
+  left: 50%;
+  margin-left: -960px;
+  margin-top: -150px;
+}
+
+/*아래로 내려가는 버튼 및 애니메이션*/
+#main li a{
+  margin-top: -90px;
+  position: absolute;
+  left: 50%;
+  margin-left: -18px;
+  color: white;
+  opacity: 0.4;
+  font-size: 70px;
+  display: inline-block;
+  -webkit-animation: bounce 3000ms infinite;
+  animation: bounce 3000ms infinite;
+}
+
+
+/*==================================================
+  about
+  ==================================================*/
+#about{
+  padding-top: 80px;
+  color: #c1b497;
+}
+
+
+#about2{
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+#about2 .block {
+  padding: 20px 30px 0 30px;
+}
+
+#about2 .block h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+#about2 .block p {
+  color: #fff;
+  font-size: 11px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+
+#about2 .block img {
+  max-width: 100%;
+}
+
+
+/*==================================================
+  product
+  ==================================================*/
+
+#product{
+  padding-top: 80px;
+  color: #fff;
+}
+
+#product p{
+  color: #fff;
+}
+
+.bg2{
+  background: url(../img/bg_1.jpg) no-repeat top fixed;
+  padding: 30px;
+  background-size: cover;
+  width: 100%;
+}
+
+#product2{
+  padding-top:30px;
+  padding-bottom: 140px;
+}
+
+#product2 h1{
+  color: #c1b497;
+}
+
+figure {
+  background: #000;
+  margin-bottom: 45px;
+}
+
+figure img:hover{
+  opacity: 0.5;
+}
+
+figure figcaption {
+  padding: 20px 25px;
+  margin-top: 0;
+  color: #000;
+  background-color: black;
+}
+
+figure figcaption h4 {
+  margin: 0;
+}
+
+figure figcaption h4 a {
+  color: #c1b497;
+}
+
+figure figcaption h4 a:hover {
+  color: #c1b497;
+  text-decoration: none
+}
+
+figure figcaption p {
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  color: #eee;
+}
+
+.gallery {
+  padding: 100px;
+}
+
+
+/*==================================================
+  story
+  ==================================================*/
+
+#story{
+  padding-top: 80px;
+  color: #fff;
+}
+
+#story p{
+  color: #fff;
+}
+
+.bg3{
+  background: url(../img/bg_2.jpg) no-repeat top fixed;
+  padding: 30px;
+  background-size: cover;
+}
+
+#story2 {
+  padding: 20px 0;
+  background-color: #eee;
+}
+
+#story2 .media {
+  margin: 0px 0 80px 0;
+}
+
+#story2 .img-wrapper{
+  margin-bottom: 20px;
+}
+
+#story2 h4 {
+  color: #000;
+  font-size: 10px;
+  border-bottom: 1px solid #c1b497;
+  padding-bottom: 5px;
+}
+
+#story2 p {
+  line-height: 25px;
+  font-size: 13px;
+  color: #000;
+}
+
+
+/*==================================================
+  contact
+  ==================================================*/
+#contact{
+  padding-top: 50px;
+  color: #fff;
+}
+
+.bg4{
+  padding: 30px;
+  background-size: cover;
+}
+
+#contact h1, p{
+  color: #c1b497
+}
+
+#contact2{
+  padding-bottom: 100px;
+}
+
+
+/*==================================================*/
+/*Footer
+/*==================================================*/
+#footer {
+  background: #25211e;
+  padding: 25px 0 40px;
+  color: #555;
+}
+
+#footer .copyright {
+  font-size: 13px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#footer .copyright a {
+  color: #02bdd5;
+}
+
+#footer .social {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+#footer .social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#footer .social li a {
+  font-size: 30px;
+  color: #c1b497;;
+}
+
+#footer .social li:nth-child(1) a:hover {
+  color: #2C427A;
+}
+
+#footer .social li:nth-child(2) a:hover {
+  color: #6680C3;
+}
+
+#footer .social li:nth-child(3) a:hover {
+  color: #CB0000;
+}
+
+#footer .social li:nth-child(4) a:hover {
+  color: #319BE5;
+}
+
+ul.social-icons {
+  height: auto;
+  overflow: hidden;
+  list-style: none !important;
+  margin-bottom: 10px;
+}
+
+ul.social-icons li {
+  float: none;
+  display: inline-block;
+  height: 36px;
+}
+
+#copyright a:hover, #copyright nav .menu li a:hover {
+  color: #e4e4e4 !important;
+}
+
+#copyright a {
+  text-decoration: none;
+}
+
+#copyright a:hover {
+  text-decoration: none;
+}
+
+
+/* Responsive styles
+================================================== */
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px) {
+  /* Dropdown animation */
+  .navbar-nav .dropdown-menu,
+  .navbar-nav .dropdown.megamenu div.dropdown-menu {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    display: block;
+    opacity: 0;
+    z-index: 1;
+    visibility: hidden;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: visibility 500ms, opacity 500ms, -webkit-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+    transition: visibility 500ms, opacity 500ms, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+    transition: visibility 500ms, opacity 500ms, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99), -webkit-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+  }
+  .navbar-nav .dropdown:hover div.dropdown-menu,
+  .navbar-nav .dropdown.megamenu:hover div.dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    color: #777;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  .navbar-nav .dropdown-backdrop {
+    visibility: hidden;
+  }
+
+  #about2 .block img {
+  max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /*about의 이미지 크기 조절*/
+  #about2 .block img {
+  max-width: 110%;
+  margin-top: 80px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .navbar-brand {
+    margin-top: -50px;
+  }
+
+  .navbar-header .navbar-brand a {
+    padding: 0 0 8px 0;
+    border: 1px solid blue;
+  }
+
+  .navbar-header .navbar-brand img {
+    padding: 0 0 8px 0;
+    border: 1px solid red;
+  }
+
+  #about{
+    padding-top: -100px;
+  }
+
+  #about2 .block img {
+  max-width: 100%;
+  margin-top: 80px;
+  }
+
+  #story2 .media {
+    margin: 0px 0px 35px;
+  }
+
+  #footer .copyright {
+    text-align: center;
+  }
+  #footer .social {
+    text-align: center;
+  }
+  .dropdown-menu > ul > li > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 15px;
+    color: #333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .dropdown-menu > ul {
+    list-style: none;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: -5px;
+    background: #fff;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 0.09px rgba(0, 0, 0, 0.15);
+  }
+
+  #top-bar .main-menu li > a {
+    color: #fff;
+    padding: 21px 10px;
+    background: transparent;
+  }
+  #top-bar .dropdown-menu > ul {
+    list-style: none;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: -5px;
+    background: #fff;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 0.09px rgba(0, 0, 0, 0.15);
+  }
+  #top-bar .dropdown-menu > ul > li > a {
+    display: block;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration: none;
+    padding: 15px;
+    color: #333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  #main li a {
+  margin-top: -70px;
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  color: white;
+  opacity: 0.4;
+  font-size: 50px;
+  }
+
+  figure img:hover{
+  opacity: 1;
+  }
+}
